@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/codetext"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_x="93dp"
+        android:layout_y="7dp"
+        android:editable="false"
+        android:focusable="false"
+        android:gravity="right" >
+
+        <requestFocus />
+    </EditText>
+
+    <joey.present.view.MyViewGroup
+        xmlns:Android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dialpad"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_x="25dp"
+        android:layout_y="64dp" >
+
+        <Button
+            Android:id="@+id/one"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="wrap_content"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 1" />
+
+        <Button
+            Android:id="@+id/two"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 2" />
+
+        <Button
+            Android:id="@+id/three"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 3" />
+
+        <Button
+            Android:id="@+id/four"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 4" />
+
+        <Button
+            Android:id="@+id/five"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 5" />
+
+        <Button
+            Android:id="@+id/six"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 6" />
+
+        <Button
+            Android:id="@+id/seven"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 7" />
+
+        <Button
+            Android:id="@+id/eight"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 8" />
+
+        <Button
+            Android:id="@+id/nine"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 9" />
+
+        <Button
+            Android:id="@+id/zero"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 0" />
+
+        <Button
+            Android:id="@+id/a"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" a" />
+
+        <Button
+            Android:id="@+id/c"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" c" />
+
+        <Button
+            Android:id="@+id/f"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" f" />
+
+        <Button
+            Android:id="@+id/point"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" ." />
+
+        <Button
+            Android:id="@+id/del"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" DEL" />
+
+        <Button
+            Android:id="@+id/close"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 取消" />
+
+        <Button
+            Android:id="@+id/ott"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 123" />
+
+        <Button
+            Android:id="@+id/soo"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 600" />
+
+        <Button
+            Android:id="@+id/ooo"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 000" />
+
+        <Button
+            Android:id="@+id/search"
+            style="@android:style/Widget.Button.Inset"
+            Android:layout_width="fill_parent"
+            Android:layout_height="wrap_content"
+            android:gravity="center"
+            Android:text=" 查询" />
+    </joey.present.view.MyViewGroup>
+
+    <TextView
+        android:id="@+id/codelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="17dp"
+        android:text="@string/search_label"
+        android:textSize="20dp" />
+
+</AbsoluteLayout>

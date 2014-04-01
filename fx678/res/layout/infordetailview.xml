@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/nextwhite"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/NewsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/headerpagebg" >
+
+        <Button
+            android:id="@+id/Btn_fanhui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btuback"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="汇金新闻"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/Btn_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_i" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/newsDetailTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NewsTitle"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="载入中..."
+        android:textColor="@color/black"
+        android:textSize="20sp" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/newsDetailTime1"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:layout_below="@+id/newsDetailTitle"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/newsDetailTime"
+            android:layout_width="wrap_content"
+            android:layout_height="20dip"
+            android:layout_below="@+id/newsDetailTitle"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/gary"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="20dip"
+            android:layout_below="@+id/newsDetailTitle"
+            android:layout_gravity="left"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/newsDetailTime"
+            android:textColor="#FF4500"
+            android:textSize="14sp" >
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsDetailTime1"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:visibility="gone"
+        android:src="@drawable/line" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/line" >
+
+        <TextView
+            android:id="@+id/newsDetail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="0dp"
+            android:fadeScrollbars="true"
+            android:gravity="top"
+            android:lineSpacingMultiplier="1.2"
+            android:scrollbars="vertical"
+            android:textColor="#5C5C5C"
+            android:textSize="18sp"
+            android:textStyle="normal" >
+        </TextView>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#40FF00</color>
+    <color name="lightblue">#B0C4DE</color>
+    <color name="orange">#FF4000</color>
+    <color name="color_divider">#ffb5b5b5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gold">#FF8000</color>
+    <color name="black">#000000</color>
+    <color name="gary">#8E8E8E</color>
+    <color name="huise">#333333</color>
+    <color name="nextwhite">#eeeeee</color>
+    <color name="nextred">#c70000</color>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headerpagebg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/btuback" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/label5"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlebar_title_s" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hsvnavll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/android_menubg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/hsvlb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/android_left" />
+
+        <HorizontalScrollView
+            android:id="@+id/hsvnav"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/hsvrb"
+            android:layout_toRightOf="@+id/hsvlb"
+            android:background="@drawable/android_menubg"
+            android:scrollbarSize="0.0sp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/scrolllayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:id="@+id/hsvrb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/android_right" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/tradingstrategynewsList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/nextwhite"
+        android:cacheColorHint="#FFFFFF"
+        android:divider="@color/gary"
+        android:dividerHeight="1px"
+        android:scrollbars="none" />
+
+</LinearLayout>

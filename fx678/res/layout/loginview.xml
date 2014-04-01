@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/logintitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="    汇通财经    "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/loginuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logintitle"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="43dp"
+        android:layout_toLeftOf="@+id/logintitle"
+        android:text="用户名：" />
+
+    <EditText
+        android:id="@+id/loginusertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/loginuser"
+        android:layout_alignBottom="@+id/loginuser"
+        android:layout_alignRight="@+id/logintitle"
+        android:layout_toRightOf="@+id/loginuser" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/loginpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginuser"
+        android:layout_below="@+id/loginusertxt"
+        android:layout_marginTop="39dp"
+        android:text="密码：" />
+
+    <EditText
+        android:id="@+id/loginpwdtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/loginpwd"
+        android:layout_alignBottom="@+id/loginpwd"
+        android:layout_alignLeft="@+id/loginusertxt"
+        android:layout_alignRight="@+id/loginusertxt"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginregbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/loginpwdtxt"
+        android:layout_below="@+id/loginpwdtxt"
+        android:layout_marginTop="26dp"
+        android:text="新注册" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/loginregbtn"
+        android:layout_alignBottom="@+id/loginregbtn"
+        android:layout_alignLeft="@+id/loginpwdtxt"
+        android:text="登录" />
+
+    <CheckBox
+        android:id="@+id/loginauto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginbtn"
+        android:layout_below="@+id/loginregbtn"
+        android:layout_marginTop="22dp"
+        android:text="自动登录" />
+
+</RelativeLayout>

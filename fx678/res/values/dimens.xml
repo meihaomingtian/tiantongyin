@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="yellowbar_height">30dp</dimen>
+    <dimen name="price_item_text">18sp</dimen>
+    <dimen name="price_item_height">30dp</dimen>
+    <dimen name="titlebar_title_s">24sp</dimen>
+</resources>

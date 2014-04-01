@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headerpagebg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/btuback" />
+
+        <ImageButton
+            android:id="@+id/addbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/add" />
+
+        <TextView
+            android:id="@+id/detailname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/default4"
+            android:textColor="@color/white"
+            android:textSize="24dp" >
+        </TextView>
+    </RelativeLayout>
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/line_top_merge"
+            layout="@layout/line_top_merge" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/hsvnavll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:id="@+id/ktypescoll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/indexSel"
+            android:scrollbarSize="0.0sp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/scrolllayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/daytype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/daytype"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/weektype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/weektype"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/montype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/montype"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/type1m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type1m"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/type5m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type5m"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/type15m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type15m"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/type30m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type30m"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/type60m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type60m"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/indexSel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/btuzhibiao" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/klinelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dip"
+            android:layout_toLeftOf="@+id/narrow"
+            android:background="@drawable/increase" />
+
+        <ImageButton
+            android:id="@+id/narrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="14dip"
+            android:layout_marginTop="14dip"
+            android:background="@drawable/narrow" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dip"
+            android:layout_toLeftOf="@+id/point"
+            android:background="@drawable/point2" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="8dip"
+            android:background="@drawable/point1" >
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="typeitem">
+        <item>MACD平滑异同异动</item>
+        <item>VOL成交量</item>
+        <item>RSI强弱指标</item>
+        <item>BOLL布林线</item>
+        <item>KDJ随机指标</item>
+        <item>OBV能量潮</item>
+        <item>CCI顺势</item>
+        <item>PSY心理线</item>
+    </string-array>
+
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新中</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh</string>
+    <string name="label1">行情中心</string>
+    <string name="label2">资讯中心</string>
+    <string name="label3">我的自选</string>
+    <string name="label4">财经日历</string>
+    <string name="label5">开户申请</string>
+    <string name="label6">汇通网</string>
+    <string name="label7">客户服务</string>
+    <string name="label8">网友讨论</string>
+    <string name="label9">退出系统</string>
+    <string name="label10">客服帮助</string>
+    <string name="app_name">天通銀</string>
+    <string name="ht_title">天通銀</string>
+    <string name="ht_optional">我的自选</string>
+    <string name="ht_news">新闻资讯</string>
+    <string name="ht_price">行情信息</string>
+    <string name="ht_system">系统设置</string>
+    <string name="ht_calendar">财经日历</string>
+    <string name="search_label">代码:</string>
+    <string name="default4">----</string>
+    <string name="default2">--</string>
+    <string name="defaultvalue">0.00</string>
+    <string name="defaultpercent">0.00%</string>
+    <string name="defaulttime">00/00</string>
+    <string name="shgold">上海金</string>
+    <string name="hjxh">现货金</string>
+    <string name="stockindex">全球股指</string>
+    <string name="wh">外汇</string>
+    <string name="daytype">日线</string>
+    <string name="weektype">周线</string>
+    <string name="montype">月线</string>
+    <string name="type1m">1分</string>
+    <string name="type5m">5分</string>
+    <string name="type15m">15分</string>
+    <string name="type30m">30分</string>
+    <string name="type60m">60分</string>
+    <string name="indexSel">指标▼</string>
+    <string name="price_code">代码</string>
+    <string name="price_name">名字</string>
+    <string name="price_quotetime">时间</string>
+    <string name="price_low">最低</string>
+    <string name="price_last">最新</string>
+    <string name="price_close">昨收</string>
+    <string name="price_settle">昨结算</string>
+    <string name="price_posi">持仓量</string>
+    <string name="price_updown">涨跌</string>
+    <string name="price_updownrate">涨跌幅</string>
+    <string name="price_average">均价</string>
+    <string name="price_sequenceno">行情序号</string>
+    <string name="price_high">最高</string>
+    <string name="price_highlimit">涨停板</string>
+    <string name="price_lastclose">昨收</string>
+    <string name="price_lastsettle">昨结算</string>
+    <string name="price_lowlimit">跌停板</string>
+    <string name="price_open">开盘</string>
+    <string name="price_turnover">成交额</string>
+    <string name="price_volume">成交量</string>
+    <string name="price_weight">成交（双边）重量</string>
+    <string name="price_ask1">卖五档价格1</string>
+    <string name="price_ask2">卖五档价格2</string>
+    <string name="price_ask3">卖五档价格3</string>
+    <string name="price_ask4">卖五档价格4</string>
+    <string name="price_ask5">卖五档价格5</string>
+    <string name="price_asklot1">卖五档量1</string>
+    <string name="price_asklot2">卖五档量2</string>
+    <string name="price_asklot3">卖五档量3</string>
+    <string name="price_asklot4">卖五档量4</string>
+    <string name="price_asklot5">卖五档量5</string>
+    <string name="price_bid1">买五档价格1</string>
+    <string name="price_bid2">买五档价格2</string>
+    <string name="price_bid3">买五档价格3</string>
+    <string name="price_bid4">买五档价格4</string>
+    <string name="price_bid5">买五档价格5</string>
+    <string name="price_bidlot1">买五档量1</string>
+    <string name="price_bidlot2">买五档量2</string>
+    <string name="price_bidlot3">买五档量3</string>
+    <string name="price_bidlot4">买五档量4</string>
+    <string name="price_bidlot5">买五档量5</string>
+    <string name="fenbi_time">时间</string>
+    <string name="fenbi_price">价格</string>
+    <string name="fenbi_volume">现手</string>
+    <string name="cal_country">国家</string>
+    <string name="cal_item">指标名称</string>
+    <string name="cal_importance">重要性</string>
+    <string name="cal_lastvalue">前值</string>
+    <string name="cal_prediction">预测值</string>
+    <string name="cal_actual">公布值</string>
+</resources>
